@@ -18,6 +18,9 @@
   ================================================== -->
     <link rel="stylesheet" type="text/css" href="_/css/style.css" />
     <link rel="stylesheet" type="text/css" href="_/css/skitter.styles.css" media="all" />
+    
+     <link rel="stylesheet" type="text/css" href="_/css/inner.css" />
+    <link rel="stylesheet" href="_/css/prettyPhoto.css" media="screen" />
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Oswald:700,400' rel='stylesheet' type='text/css' />
@@ -55,6 +58,9 @@
                              <?php include_once "nav.php" ;?>
                           
                         </ul><!-- topnav -->
+                        <div class="nav-right">
+                            <a href="">繁</a> | <a href="">简</a>
+                        </div>
                     </nav><!-- nav -->
                 </section>
                                 

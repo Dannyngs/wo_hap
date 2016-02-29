@@ -21,7 +21,7 @@ module.exports = function (grunt) {
         dist: 'dist',
         siteURL: '127.0.0.1',
         devURL: '127.0.0.1',
-        devPort: 80
+        devPort: 801
     };
 
 

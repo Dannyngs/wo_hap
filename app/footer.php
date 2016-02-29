@@ -52,43 +52,9 @@ jQuery(document).ready(function(){
 
 });
 </script>
-
-  <script type="text/javascript">
- $(document).ready(function(){
-      
- $('#mysubmit').click(function(event){
-     event.preventDefault();
- $('#mysubmit').attr("disabled",true); 
-     var myname=$('#myname').val();
-    var myemail=$('#myemail').val();
-     var mymsg=$('#mymsg').val();
-console.log(myname);
-   if( myname=="" || myemail==""||mymsg=="")
-       return alert("請完整填寫信息");
-     
-     $.post("mail.php",
-     {
-    myname:myname,
-   myemail :myemail,
-         mymsg:mymsg
-     },
-  function(data,status){
-         
-         
-         if(data!="ok"){
-              alert("遞交失敗，請重試！");
-              $('#mysubmit').attr("disabled",false); 
-
-         }else{
-         $('#myname').val("");$('#myemail').val("");$('#mymsg').val("");
-         alert("遞交成功！");}
-        
-  });
-     
- });  
-   
- });
-</script>
+<script type="text/javascript" src="_/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="_/js/fade.js"></script>
+ <script type="text/javascript" src="_/js/contact.js"></script>
 
   
     </body>
