@@ -56,9 +56,9 @@ require_once 'header.php';
                    <?php  foreach($showcases as $show)          
 {?>   
                 	<div class="one_third">
-                    	<div class="frame">
+                    	<a href="<?php echo $show['link'];?>" class="more"><div class="frame">
                     	<img src="<?php echo $imgurl.$show['img'];?>" alt="" /><h5><?php echo $show[$current_lang.'_title']?></h5>
-                        </div>
+                            </div></a>
                         <p><?php echo $show[$current_lang.'_cont']?> <a href="<?php echo $show['link'];?>" class="more">Read More</a></p>
                     </div>
                 	
