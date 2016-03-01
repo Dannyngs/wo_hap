@@ -30,7 +30,7 @@ require_once 'header.php';
           <section id="mainthecontent">
         
                 <div class="one_half">
-        <article>
+        <article style="line-height:30px">
                     <h2><?php echo $lang['about'];?></h2>
                     <p><?php echo $system[$current_lang.'_description']?></p>
 

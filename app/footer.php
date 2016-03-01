@@ -6,7 +6,7 @@
                 <ul id="footer-menu">
                 	 <?php include "nav.php";?>
                 </ul>
-                <div id="copyright">Design by Creation Media.</div>
+                <div id="copyright">Design by <a href="http://www.c-m.hk/">Creation Media</a>.</div>
                 </footer>
             </div>
         </div>

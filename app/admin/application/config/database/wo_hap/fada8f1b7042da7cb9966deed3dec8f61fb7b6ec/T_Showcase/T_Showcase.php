@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["eng_title","chi_title","eng_cont","chi_cont","link","img"],"table":{"crudTitle":"T_Showcase manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_title","eng_title","img","link","chi_cont","eng_cont"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_title","eng_title","img","link","chi_cont","eng_cont"],"actived":["id","eng_title"],"atrr":{"id":{"alias":"id"}}},"frm_type":"2"}

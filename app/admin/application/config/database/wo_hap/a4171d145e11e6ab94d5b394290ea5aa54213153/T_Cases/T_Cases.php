@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["eng_case_name","chi_case_name","case_id","s_img","b_img"],"table":{"crudTitle":"T_Cases manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_case_name","eng_case_name","s_img","b_img","case_id"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_case_name","eng_case_name","s_img","b_img","case_id"],"actived":["id","eng_case_name"],"atrr":{"id":{"alias":"id"}}},"frm_type":"2"}

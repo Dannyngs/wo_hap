@@ -7,7 +7,7 @@ Imperial - CSS File
 /*** GLOBAL  ***/
 html, body{height:100%;}
 body {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"微軟正黑體";
 	font-size:15px;
 	color:#363636;
 	margin:0;
@@ -73,10 +73,10 @@ h3 {font-size:18px;}
 h4 {font-size:14px;}
 h5{font-size:12px;}
 h6 {font-size:10px;}
-h1, h2{ font-weight: 400; font-family: 'Open Sans', sans-serif; color:#333;  line-height:normal;}
-h3, h4, h5, h6{font-weight: 600; font-family: 'Open Sans', sans-serif; color:#333;}
+h1, h2{ font-weight: 600; font-family: "微軟正黑體"; color:#333;  line-height:normal;}
+h3, h4, h5, h6{font-weight: 600; font-family: "微軟正黑體"; color:#333;}
 .pagetitle{margin-top:27px; float:left; line-height:normal;}
-.pagedesc{ float:left; margin-top:44px; font-weight: 400; font-family: 'Open Sans', sans-serif; font-style:italic; margin-left:20px; color:#555;}
+.pagedesc{ float:left; margin-top:44px; font-weight: 400; font-family: "微軟正黑體"; font-style:italic; margin-left:20px; color:#555;}
 
 
 /* links */
@@ -123,7 +123,7 @@ img.alignnone {
 }
 
 .frame{ background:#fafafa; border:1px solid #c4c4c4; text-align:center; margin-bottom:15px; }
-.frame h5{ text-transform:uppercase; font-weight: 600; font-family: 'Open Sans', sans-serif; margin:10px 0px;}
+.frame h5{ text-transform:uppercase; font-weight: 600; font-family:"微軟正黑體"; margin:10px 0px;}
 
 .shadow-frame{
 border:1px solid #fff;
@@ -168,7 +168,7 @@ blockquote {
 	background-repeat:no-repeat;
 	background-position:0px 0px;
 	clear:both;
-	font-family: Georgia, Arial;
+	font-family:"微軟正黑體";
 	font-style:italic;
 	font-size:16px;
 	line-height:22px;
@@ -274,7 +274,7 @@ nav{position:relative;	z-index:9000; float:none; margin:0 0 0 0;}
 	font-weight:normal;
 	text-transform:uppercase;
 	color:#ffd735;
-	font-weight: 400; font-family: 'Open Sans', sans-serif;
+	font-weight: 400; font-family:"微軟正黑體";
 }
 
 
@@ -413,7 +413,7 @@ ul.sf-menu li li li.sfHover ul {
 	font-size:12px;
 	padding:10px 30px;
 	color:#fff;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"微軟正黑體";
 }
 
 
@@ -421,16 +421,16 @@ ul.sf-menu li li li.sfHover ul {
 #outerbeforecontent{ clear:both; }
 #beforecontent{}
 #beforethecontent{}
-.intro-l{ width:550px; float:left; background:#fbfbfb; padding-left:30px; height:106px; border-bottom:3px solid #534441; }
-.intro-l h2{font-weight: 600;font-family: 'Open Sans', sans-serif;font-size: 20px;line-height: 30px;margin-top: 25px;}
-.intro-r{ width:350px; float:left; background: url(../images/sparator-bfcontent.gif) no-repeat #760000; padding: 28px 30px 0px 40px; height:81px; text-align:right; color:#fff;line-height:30px;font-weight: 600;}
-.intro-r h2{font-weight:700; font-family: 'Oswald', sans-serif; line-height:30px; font-size:24px;  text-transform:uppercase;  color:#111;}
+.intro-l{ width:540px; float:left; background:#fbfbfb; padding-left:30px; height:106px; border-bottom:3px solid #534441; }
+.intro-l h2{font-weight: 600;font-family:"微軟正黑體";font-size: 20px;line-height: 30px;margin-top: 25px;}
+.intro-r{ width:360px; float:left; background: url(../images/sparator-bfcontent.gif) no-repeat #760000; padding: 28px 30px 0px 40px; height:81px; text-align:right; color:#fff;line-height:30px;font-weight: 500;}
+.intro-r h2{font-weight:700; font-family:"微軟正黑體"; line-height:30px; font-size:24px;  text-transform:uppercase;  color:#111;}
 
 
 /*** CONTENT  ***/
 #outermain{padding:0;}
 #maincontent{background:#fff;}
-#mainthecontent{ padding:43px 0px;font-weight: bold}
+#mainthecontent{ padding:43px 0px;}
 
 #content{width:645px; float:left;}
 
@@ -468,7 +468,7 @@ select {
 	display:inline-block;
 	padding:6px 13px;
 	cursor:pointer;
-	font-weight: 400; font-family: 'Open Sans', sans-serif;
+	font-weight: 400; font-family:"微軟正黑體";
 	border:0px;
 }
 
@@ -584,7 +584,7 @@ tr.odd td {
 .pullquote-left{float:left;margin-left:2px;margin-right:20px;}
 
 .pullquote{
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:"微軟正黑體";
 	font-size:18px;
 	font-style:italic;
 	line-height:28px;
@@ -673,7 +673,7 @@ ul.tabs li a {
 	color:#707070;
 	font-size:14px;
 	background:#f7f7f7;
-	font-weight: 600; font-family: 'Open Sans', sans-serif;
+	font-weight: 600; font-family: "微軟正黑體";
 }
 
 .tab-content {padding: 20px 0; }
@@ -701,7 +701,7 @@ h2.trigger {
 	margin: 0 0 1px 0;
 	font-size:12px;
 	background:#f4f4f4;
-	font-family:arial;
+	font-family:"微軟正黑體";
 	
 }
 
@@ -763,7 +763,7 @@ h2.active {
 #sidebar .widget-title{
 	padding:0;
 	font-size:12px;
-	font-weight: 600; font-family: 'Open Sans', sans-serif;
+	font-weight: 600; font-family:"微軟正黑體";
 	text-transform:uppercase;
 	padding-bottom:12px;
 	margin-bottom:14px;
@@ -842,7 +842,7 @@ h2.active {
 .footcol ul li .colortext, .footcol ul li .colortext:visited{color:#ff6b39;}
 .footcol .widget-container{margin:0 0 24px 0;}
 .footcol .widget-container:last-child{margin:0;}
-.footcol .widget-title{font-size:12px; color:#2d2d2d; margin-bottom:6px; font-weight: 600; font-family: 'Open Sans', sans-serif; text-transform:uppercase;}
+.footcol .widget-title{font-size:12px; color:#2d2d2d; margin-bottom:6px; font-weight: 600; font-family:"微軟正黑體"; text-transform:uppercase;}
 .footcol ul li li{padding:0 0 6px 0; margin: 0 0 6px 0; border-bottom:1px solid #e6e6e6;}
 .footcol ul li li:first-child{ border-top:1px solid #e6e6e6; padding-top:6px;}
 
@@ -854,7 +854,7 @@ h2.active {
 /* recenpost widget */
 .recenpost-widget{}
 .recenpost-widget img{padding:1px; background:#fff; float:left; margin:5px 19px 13px 0px;}
-.recenpost-widget h5{font-size:11px; margin:0; line-height:18px; font-family:Arial, Helvetica, sans-serif; overflow:hidden;}
+.recenpost-widget h5{font-size:11px; margin:0; line-height:18px; font-family:"微軟正黑體"; overflow:hidden;}
 .recenpost-widget li{clear:both; float:left; width:100%; padding-bottom:12px !important; margin-bottom:22px !important; display:block; }
 .recenpost-widget li:first-child{ border-top:0px!important;}
 .recenpost-widget .smalldate{padding-bottom:0; font-size:11px; font-style:italic; color:#aaa; font-weight:normal; }
