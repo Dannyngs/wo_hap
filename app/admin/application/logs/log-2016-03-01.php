@@ -112,3 +112,4 @@ ERROR - 2016-03-01 13:07:47 --> Severity: Warning  --> strtotime(): It is not sa
 ERROR - 2016-03-01 13:23:33 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
 ERROR - 2016-03-01 13:23:45 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
 ERROR - 2016-03-01 13:25:02 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-01 14:36:14 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
