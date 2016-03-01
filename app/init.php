@@ -40,18 +40,18 @@ $current_lang = $_SESSION['lang'];
 else
 {
     //# set default lang
-$current_lang = 'chi';
+$current_lang = 'tra';
 }
  
 switch ($current_lang) {
   
  
-  case 'eng':
-  $lang_file = 'eng.php';
+  case 'sim':
+  $lang_file = 'sim.php';
   break;
  
   default:
-  $lang_file = 'chi.php';
+  $lang_file = 'tra.php';
  
 }
 include_once 'lang/'.$lang_file;
