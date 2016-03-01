@@ -17,7 +17,7 @@ require_once 'header.php';
                       <h1 class="pagetitle">成功例子</span>
                     </div>
                     <div class="intro-r">
-                      亞贊奴專門處理男女情降、和合法事(如夫妻感情、男女愛情、同性關係、姻緣桃花等)成功率高達8成以上
+                      <?php echo $lang['succ'];?>
                     </div>
                     <div class="clear"></div>
                 </section>

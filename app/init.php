@@ -42,7 +42,7 @@ else
     //# set default lang
 $current_lang = 'chi';
 }
- $current_lang = 'chi';
+ 
 switch ($current_lang) {
   
  
@@ -54,8 +54,8 @@ switch ($current_lang) {
   $lang_file = 'chi.php';
  
 }
-
-    
-    
+include_once 'lang/'.$lang_file;
+  ?>  
+  
     
 

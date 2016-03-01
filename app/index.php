@@ -36,7 +36,7 @@ require_once 'header.php';
         	<div id="beforecontent">
             	<section id="beforethecontent">
 					<div class="intro-l">
-                    	<h2>專門處理男女情降、和合法事(如夫妻感情、男女愛情、同性關係、姻緣桃花等)成功率高達8成以上。</h2>
+                    	<h2><?php echo $lang['index_word'];?></h2>
                     </div>
                     <div class="intro-r">
                     	
