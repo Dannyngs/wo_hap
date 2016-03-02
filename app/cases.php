@@ -1,6 +1,6 @@
 <?php
 require_once 'init.php';
- $rs = $db->query("SELECT* FROM T_Cases");
+ $rs = $db->query("SELECT* FROM T_Cases order by sort");
     $cases = $rs->fetchAll();
 
   ?>
@@ -47,7 +47,7 @@ require_once 'header.php';
                                 <a class="image" href="<?php echo  $imgurl.$case['b_img'];?>" 
                                 data-rel="prettyPhoto[<?php echo  $case['case_id'];?>]" title="123">
                                 <span class="rollover"></span>
-                                <img src="<?php echo  $imgurl.$case['s_img'];?>" alt="" />
+                                <img src="<?php echo  $imgurl.$case['b_img'];?>" alt="" />
                                 
                                 </a>              
                             </div>

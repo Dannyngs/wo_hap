@@ -59,7 +59,7 @@
                           
                         </ul><!-- topnav -->
                         <div class="nav-right">
-                            <a href="/?lang=eng">繁</a> | <a href="/?lang=chi">简</a>
+                            <a href="/?lang=tra">繁</a> | <a href="/?lang=sim">简</a>
                         </div>
                     </nav><!-- nav -->
                 </section>

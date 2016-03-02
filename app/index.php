@@ -36,7 +36,7 @@ require_once 'header.php';
         	<div id="beforecontent">
             	<section id="beforethecontent">
 					<div class="intro-l">
-                    	<h2><?php echo $lang['index_word'];?></h2>
+                    	<h2><?php echo $system[$current_lang.'_description']?></h2>
                     </div>
                     <div class="intro-r">
                     	

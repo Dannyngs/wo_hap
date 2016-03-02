@@ -34,7 +34,7 @@ require_once 'header.php';
                     <h2><?php echo $lang['about'];?></h2>
                     <p><?php echo $system[$current_lang.'_description']?></p>
 
-<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Jalan+Kemanggisan+Utama,+Jakarta,+Indonesia&amp;sll=37.0625,-95.677068&amp;sspn=46.092115,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Jalan+Kemanggisan+Utama,+Jakarta+Barat,+Jakarta,+Indonesia&amp;ll=-6.189793,106.7908&amp;spn=0.016639,0.034246&amp;z=14&amp;iwloc=A&amp;output=embed" style="width:100%; height:319px;  line-height:normal; " class="shadow-frame"></iframe><br /><br />
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.368570998154!2d114.15083941441071!3d22.339707947109794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404075181a9a0f9%3A0xa0e9a27987b7b342!2z6ZW35rKZ54Gj6Z2S5bGx6YGTNDY56Jmf6IGv6YKm5buj5aC0!5e0!3m2!1szh-TW!2shk!4v1456893112147" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br /><br />
 
 
                     Email: <a href="mailto:<?php echo $system['email']?>"><?php echo $system['emai']?></a><br />
@@ -56,12 +56,12 @@ require_once 'header.php';
                             <span class="error" id="email_error">Please enter email address !</span>
                             <span class="error" id="email_error2">Please enter valid email address !</span>
                             <span class="error" id="msg_error">Please enter message !</span>
-                            <input type="text" name="name" id="name" size="50" value="Name" class="text-input" onblur="if (this.value == ''){this.value = 'Name'; }" onfocus="if (this.value == 'Name') {this.value = ''; }" />
-                            <input type="text" name="email" id="email" size="50" value="Email" class="text-input" onblur="if (this.value == ''){this.value = 'Email'; }" onfocus="if (this.value == 'Email') {this.value = ''; }" />
-                            <input type="text" name="subject" id="subject" value="Subject" class="text-input" onblur="if (this.value == ''){this.value = 'Subject'; }" onfocus="if (this.value == 'Subject') {this.value = ''; }" />
-                            <textarea cols="60" rows="10" name="msg" id="msg" class="text-input">Message</textarea>
+                            <input type="text" name="name" id="name" size="50" placeholder="姓名" class="text-input" />
+                            <input type="text" name="email" id="email" size="50" placeholder="電郵" class="text-input" />
+                            <input type="text" name="subject" id="subject" placeholder="主題" class="text-input" />
+                            <textarea cols="60" rows="10" name="msg" id="msg" class="text-input">内容</textarea>
                             <br />
-                            <input type="submit" name="submit" class="button" id="submit_btn" value="Send Message" /><br class="clear" />
+                            <input type="submit" name="submit" class="button" id="submit_btn" value="提交" /><br class="clear" />
                             </fieldset>
                           </form>
                   </div><!-- end contactform -->
