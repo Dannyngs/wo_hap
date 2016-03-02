@@ -235,14 +235,14 @@ font-style:italic; line-height:18px;}
 
 .ts-display-pf-col-4 .ts-display-pf-img a.image{
 	width:100%; 
-	height:139px;
+	height:100%;
 	display:block;
 	position:relative;
 
 }
 .ts-display-pf-col-4 .ts-display-pf-img a .rollover{
 	width:100%; 
-	height:139px;
+	height:100%;
 }
 .image-grid:after {
 	content: "";
