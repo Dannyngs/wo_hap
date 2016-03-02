@@ -44,10 +44,10 @@ require_once 'header.php';
                                 <h2><?php echo  $case[$current_lang.'_case_name'];?></h2>
                             </div>
                             <div class="ts-display-pf-img">
-                                <a class="image" href="<?php echo  imgurl.$case['b_img'];?>" 
+                                <a class="image" href="<?php echo  $imgurl.$case['b_img'];?>" 
                                 data-rel="prettyPhoto[<?php echo  $case['case_id'];?>]" title="<?php echo  $case[$current_lang.'_case_name'];?>" >
                                 <span class="rollover"></span>
-                                <img src="<?php echo  imgurl.$case['b_img'];?>" alt=""  />
+                                <img src="<?php echo  $imgurl.$case['b_img'];?>" alt=""  />
                                 
                                 </a>              
                             </div>
