@@ -96,3 +96,8 @@ ERROR - 2016-03-02 04:38:25 --> Severity: Notice  --> Only variable references s
 ERROR - 2016-03-02 04:38:35 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
 ERROR - 2016-03-02 04:38:49 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
 ERROR - 2016-03-02 05:25:56 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-02 06:53:30 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-02 06:53:36 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-02 06:53:44 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-02 06:54:01 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257
+ERROR - 2016-03-02 06:54:03 --> Severity: Notice  --> Only variable references should be returned by reference E:\wo_hap\app\admin\system\core\Common.php 257

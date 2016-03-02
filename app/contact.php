@@ -43,7 +43,9 @@ require_once 'header.php';
                     Whatsapp: <?php echo $system['whatsapp']?><br />
                     Line ID： <?php echo $system['line']?><br />
                     微信: <?php echo $system['weichat']?><br />
-                    QQ：<?php echo $system['qq']?>
+                    QQ：<?php echo $system['qq']?><br />
+                    地址：<?php echo $system['address']?>
+
                   
                 </article>
             </div>
