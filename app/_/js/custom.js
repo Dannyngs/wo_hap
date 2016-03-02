@@ -34,6 +34,5 @@ jQuery(document).ready(function(){
 		jQuery(this).toggleClass("active").next().slideToggle("slow");
 	});
 	
-	
 });
 
